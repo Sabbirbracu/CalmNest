@@ -1,0 +1,99 @@
+.navbar-brand img{
+    margin-bottom: -35px;
+    margin-top: -20px;
+}
+
+.navbar-nav a{
+    font-family: montserrat;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    #logo{
+        width: 70%;
+    }
+    
+    #logo img{
+        width : 35% !important;
+    }
+
+    .grid-text{
+        height: 250px !important;
+    }
+
+    .grid-text h3{
+        font-size: 1.5em !important;
+        padding-top: 15px !important;
+    }
+}
+
+
+
+.img-1{
+    background-image: url("/img/pexels-pixabay-259620.jpg");
+}
+
+.img-2{
+    background-image: url("/img/pexels-cottonbro-5993688.jpg");
+}
+
+.img-3{
+    background-image: url("/img/pexels-arina-krasnikova-6653890.jpg");
+}
+
+.carousel-img{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.col:nth-child(even) .grid-text{
+    background-color: rgb(19, 83, 62);
+    color: #fff;
+}
+
+.col:nth-child(odd) .grid-text{
+    /* background-color: rgb(173, 125, 51); */
+    background-color: rgb(7, 7, 84);
+    color: #fff;
+}
+
+.grid-text{
+    height: 300px;
+}
+
+
+
+#learn-more{
+    padding: 10px;
+}
+
+.contact-form{
+    background-color: rgb(19, 83, 62);
+    width: 400px;
+}
+
+.bg-darkgreen{
+    background-color: rgb(9, 85, 60);
+}
+.text-darkblue{
+    color: rgb(7, 79, 118);
+}
+
+.footer-img img{
+    margin-top: -50px;
+}
+
+.font-family-mont{
+    font-family: montserrat !important;
+}
+
+.font-family-lora{
+    font-family: lora !important;
+}
